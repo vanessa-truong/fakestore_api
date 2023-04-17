@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./fonts/Nunito/Nunito-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "Nunito";
+  margin: 0;
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 90px;
+}
+
+.product_grid div {
+
+  padding: 10px;
+
+}
+
+.product_grid div img {
+  width: 100%;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 4%;
+  padding-bottom: 10vh;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: 2px solid #4C6085;
+  background-color: #4C6085;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.image_details {
+  width: 30%;
+}
+
+.image_list {
+  height: 45vh;
+
+}
+
+.section_header {
+  background-color: #13C4A3;
+}
+
+.section_header h1 {
+  color: #32322C;
+  font-size: 70px;
+  padding-top: 90px;
+  border-bottom: 6px double #4C6085;
+  margin: 0px 5vw;
+}
+
+.SM {
+  font-size: 120px;
+}
+
+.link_list {
+  text-decoration: none;
+  border: 2px solid #39A0ED;
+  background-color: #39A0ED;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 25px;
+  font-weight: 900;
+  
+}
+
+.price {
+  margin-bottom: 30px;
+}
