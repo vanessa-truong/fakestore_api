@@ -45,6 +45,7 @@
 * {
   font-family: "Nunito";
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .product_grid {
@@ -54,9 +55,7 @@
 }
 
 .product_grid div {
-
   padding: 10px;
-
 }
 
 .product_grid div img {
@@ -74,11 +73,20 @@
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 25px;
-  border: 2px solid #4C6085;
-  background-color: #4C6085;
+  border: 2px solid #4c6085;
+  background-color: #4c6085;
   color: white;
   font-weight: 700;
   font-size: 17px;
+
+  transition: all 0.4s ease;
+}
+
+.navBar a:hover {
+  background-color: white;
+  color: #4c6085;
+  border: 3px solid white;
+  transform: scale(1.2);
 }
 
 .image_details {
@@ -87,18 +95,17 @@
 
 .image_list {
   height: 45vh;
-
 }
 
 .section_header {
-  background-color: #13C4A3;
+  background-color: #13c4a3;
 }
 
 .section_header h1 {
-  color: #32322C;
+  color: #32322c;
   font-size: 70px;
   padding-top: 90px;
-  border-bottom: 6px double #4C6085;
+  border-bottom: 6px double #4c6085;
   margin: 0px 5vw;
 }
 
@@ -108,13 +115,18 @@
 
 .link_list {
   text-decoration: none;
-  border: 2px solid #39A0ED;
-  background-color: #39A0ED;
+  border: 2px solid #39a0ed;
+  background-color: #39a0ed;
   padding: 10px 20px;
   color: white;
   border-radius: 25px;
   font-weight: 900;
-  
+}
+
+.link_list:hover {
+  transition: all 0.4s ease;
+  background-color: #4c6085;
+  border: 2px solid #4c6085;
 }
 
 .price {
