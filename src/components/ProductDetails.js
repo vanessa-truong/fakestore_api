@@ -28,11 +28,11 @@ const ProductDetails = () => {
       <NavBar />
       {detailProducts.map((elt, i) => {
         return (
-          <section key={i}>
-            <img src={elt.image} alt="#" className="image_details" />
-            <h3>{elt.title}</h3>
-            <p>{elt.price}$</p>
-            <p>{elt.description}</p>
+          <section key={i} className="product_details">
+            <img src={elt.image} alt="#" className="product_image" />
+            <h3 className="product_title">{elt.title}</h3>
+            <p className="product_price">{elt.price}$</p>
+            <p className="product_description">{elt.description}</p>
           </section>
         );
       })}
