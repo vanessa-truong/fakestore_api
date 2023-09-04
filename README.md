@@ -1,4 +1,4 @@
-# Projectdescription: Fakestore-Api
+# Project Description: Fakestore-Api
 
 This project is a React application that fetches products from a public API and displays them on a website. The website consists of various pages, including a homepage where the products are displayed in a list and a product detail page where users can view more information about a selected product.
 
